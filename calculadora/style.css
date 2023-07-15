@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #252422;
+    color: #fffcf2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+input:focus {
+    outline: none;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background: #3a3a3a;
+    padding: 47px;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0px -1px 16px #0a0a0a;
+}
