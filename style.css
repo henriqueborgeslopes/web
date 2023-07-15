@@ -1,0 +1,60 @@
+body {
+    margin:0;
+    background-color: #e3Fbe3;
+} 
+ 
+#banner {
+    width: 100%;
+    height: 300px;
+}
+ 
+
+#missao {
+    font-size: 20px;
+}
+ 
+ /* seletores CSS */
+ p {
+    text-align: center;
+}
+
+em strong {
+    color: limegreen;
+}
+
+.principal {
+    background: #e3Fbe3;
+    padding: 30px;    
+}
+
+.produtos {
+    background: #ffffff;
+    padding: 20px;
+}
+
+.itens {
+    font-style: italic;
+}
+
+ul {
+    
+
+
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2.5em;
+    width: 20%;
+    margin-left: 30%
+}
+
+.imagem-produtos {
+    width: 20%;
+}
+
+.titulo-principal {
+    padding: 20px;
+}
+
+.titutlo-centralizado{
+    text-align: center;
+}

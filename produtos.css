@@ -1,0 +1,95 @@
+header {
+    background: #e3fbe3;
+    padding: 60px 0;
+}
+
+.painel{
+    /* relative faz com que o menu nav (absolute) seja posicionado do painel */
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+
+nav {
+    /* posição absoluta em relação ao elemento pai: painel (relative) */
+    position: absolute;
+    top: 80px;
+    right: 0px;
+
+}
+
+nav li {
+    /* block = ocupa o espaço vertical (padrão) */
+    /* inline = ocupa o espaço horizontal */
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+.lista-produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px 0;
+    
+}
+
+.lista-produtos li {
+    /*posiciona os itens da lista lado a lado*/
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    padding: 50px 0px;
+    box-sizing: border-box;
+    border: 2px solid #428759;
+    border-radius: 10px;
+}
+
+/*
+  pseudo-classes CSS
+   :hover, :active, :link, :visited, :first-child, :nth-child, etc
+*/
+
+.lista-produtos li:hover{
+    border-color: #c78c19;
+}
+
+.lista-produtos:active {
+    border-color: #041b07;
+}
+
+.lista-produtos li:hover h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.produto-desc {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+    footer {
+        text-align: center;
+        background-image: url('img/bg.png');
+        padding: 30px 0;
+    }
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
